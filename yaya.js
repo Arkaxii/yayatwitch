@@ -7,7 +7,7 @@ client.on("message", message => {
     var prefix = '<';
 
 if(message.content.startsWith(prefix + "tw")){
-    message.channel.send(" @everyone  https://www.twitch.tv/judge_choucr")
+    message.channel.send(" @everyone **Le live commence !!**  https://www.twitch.tv/judge_choucr")
 };
 
 });
