@@ -1,1 +1,1 @@
-worker: node bot
+worker: node yaya
