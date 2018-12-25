@@ -1,8 +1,8 @@
 const token = process.env.token;
 const Discord = require('discord.js')
-const bot = new Discord.Client()
+const client = new Discord.Client()
 
-bot.on("message", message => {
+client.on("message", message => {
 
     var prefix = '<';
 
@@ -11,4 +11,4 @@ if(message.content.startsWith(prefix + "tw")){
 };
 
 });
-bot.login(token);
+client.login(token);
