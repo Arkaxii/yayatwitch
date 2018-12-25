@@ -2,7 +2,7 @@ const token = process.env.token;
 const Discord = require('discord.js')
 const bot = new Discord.Client()
 
-bot.on("message", message => {
+client.on("message", message => {
 
     var prefix = '<';
 
